@@ -12,6 +12,24 @@
 	vertical-align: middle;
 }
 
+/*Separador*/
+.sep {
+    border-left: 1px;
+    height: 100px;
+}
+
+.supporters {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.sponsors {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
 /*Estilo del menu*/
 .nav a {
 float: left;
