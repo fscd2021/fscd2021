@@ -4050,3 +4050,10 @@ display: block;
 			}
 
 		}
+
+    div.wdesc {
+        text-align: justify;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
