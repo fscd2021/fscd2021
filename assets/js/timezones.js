@@ -33,7 +33,7 @@ const program = {
                         {
                             type: "talk",
                             start : "19 Jul 2021 08:30:00",
-                            end: "19 Jul 2021 00:00:00",
+                            end: "19 Jul 2021 09:00:00",
                             authors: "Hans-Peter Deifel, Stefan Milius and Thorsten Wißmann",
                             title: "Coalgebra Encoding for Efficient Minimization"
                         },
