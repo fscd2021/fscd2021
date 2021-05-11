@@ -440,11 +440,18 @@ function drawProgram(timezone){
                 data.innerText = printableTime(endDate);
                 row.appendChild(data);
                 if (event.type == 'break') {
-                    row.setAttribute('style', 'text-align: center; background: #dddddd;');
+                    row.setAttribute('style', 'background: #dddddd;');
                     data = document.createElement('td');
-                    data.setAttribute('colspan', '2');
+                    data.innerText = '';
+                    row.appendChild(data);
+                    data = document.createElement('td');
                     data.innerText = 'Break';
                     row.appendChild(data);
+    //                row.setAttribute('style', 'text-align: center; background: #dddddd;');
+     //               data = document.createElement('td');
+      //              data.setAttribute('colspan', '2');
+       //             data.innerText = 'Break';
+       //             row.appendChild(data);
                 } else if (event.type == 'talk') {
                     data = document.createElement('td');
                     data.innerText = event.authors;
