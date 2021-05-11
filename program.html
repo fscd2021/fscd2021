@@ -55,10 +55,40 @@
 	  <a href=" http://fscd2021.dc.uba.ar">http://fscd2021.dc.uba.ar</a></p>
 	</header>
 
-	<strong>For the pre and post affiliated conference workshops, please <a href="Workshops.html"><span style="color: blue;">click here</span></a></strong>
+	<strong>For the pre and post affiliated conference workshops, please <a href="Workshops.html"><span style="color: blue;">click here</span></a>.</strong>
 	<br><br>
-
-	<table cellspacing="0" cellpadding="0">
+	<label for="timezones">Choose a timezone:</label>
+	<select name="timezones" id="timezones">
+		<option value="-12">GMT-12</option>
+		<option value="-11">GMT-11</option>
+		<option value="-10">GMT-10</option>
+		<option value="-9">GMT-9</option>
+		<option value="-8">GMT-8</option>
+		<option value="-7">GMT-7</option>
+		<option value="-6">GMT-6</option>
+		<option value="-5">GMT-5</option>
+		<option value="-4">GMT-4</option>
+		<option value="-3" selected="selected">GMT-3</option>
+		<option value="-2">GMT-2</option>
+		<option value="-1">GMT-1</option>
+		<option value="0">GMT+0</option>
+		<option value="1">GMT+1</option>
+		<option value="2">GMT+2</option>
+		<option value="3">GMT+3</option>
+		<option value="4">GMT+4</option>
+		<option value="5">GMT+5</option>
+		<option value="6">GMT+6</option>
+		<option value="7">GMT+7</option>
+		<option value="8">GMT+8</option>
+		<option value="9">GMT+9</option>
+		<option value="10">GMT+10</option>
+		<option value="11">GMT+11</option>
+		<option value="12">GMT+12</option>
+	</select>
+	<br>
+	
+	<div id="programTable"></div>
+	<!-- <table cellspacing="0" cellpadding="0">
 	  <thead>
 	    <tr>
 	      <th>Start</th>
@@ -358,7 +388,7 @@
 	      <td>Synthetic Undecidability of MSELL via FRACTRAN mechanised in Coq</td>
 	    </tr>
 	  </tbody>
-	</table>
+	</table> -->
 
     </section>
 
@@ -378,6 +408,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+	<script src="assets/js/timezones.js"></script>
 
   </body>
 </html>
