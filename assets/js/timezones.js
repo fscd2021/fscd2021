@@ -354,7 +354,7 @@ function timezoneChangeListener(){
 
 function newDate(dateString, timezone){
     date = new Date(dateString);
-    date.setHours(date.getHours() + (timezone - defaultTimezone));
+    date.setTime(date.getTime() + (timezone - defaultTimezone)*60*60*1000);
     return date;
 }
 
