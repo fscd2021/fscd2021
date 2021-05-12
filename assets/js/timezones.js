@@ -241,11 +241,11 @@ const program = {
                             end: "21 Jul 2021 10:30:00"
                         },
                         {
-                            type: "talk",
+                            type: "GM",
                             start: "21 Jul 2021 10:30:00",
-                            end: "21 Jul 2021 12:30:00",
-                            authors: "FSCD General Meeting",
-                            title: ""
+                            end: "21 Jul 2021 12:00:00",
+//                            authors: "",
+//                            title: "FSCD General Meeting"
                         }
                     ]
                 }
@@ -459,7 +459,15 @@ function drawProgram(timezone){
                     data = document.createElement('td');
                     data.innerText = event.title;
                     row.appendChild(data);
-                }
+		} else if (event.type = 'GM') {
+		  row.setAttribute('style', 'font-variant: small-caps;');
+		  data = document.createElement('td');
+		  data.innerText = '';
+		  row.appendChild(data);
+		  data = document.createElement('td');
+		  data.innerText = 'FSCD General Meeting';
+		  row.appendChild(data);
+		}
                 tbody.appendChild(row);
             }
         }
