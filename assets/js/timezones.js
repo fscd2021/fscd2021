@@ -178,7 +178,7 @@ const program = {
                             type: "talk",
                             start: "20 Jul 2021 11:30:00",
                             end: "20 Jul 2021 12:30:00",
-                            authors: "Zena M. Abriola",
+                            authors: "Zena M. Ariola",
                             title: "Duality in Action"
                         }
                     ]
