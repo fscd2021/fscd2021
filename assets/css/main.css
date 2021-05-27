@@ -79,7 +79,7 @@ z-index: 1;
 float: none;
 color: black;
 text-decoration: none;
-display: block;
+/* display: block; */
 text-align: left;
 }
 
