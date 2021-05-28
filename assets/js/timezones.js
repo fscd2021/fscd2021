@@ -33,7 +33,7 @@ const program = {
 	  ]
 	},
 	{
-	  title: "Session: Concurrency and formal language",
+	  title: "Session: Concurrency and formal languages",
 	  events: [
 	    {
 	      type: "talk",
