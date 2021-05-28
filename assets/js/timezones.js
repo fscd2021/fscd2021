@@ -152,14 +152,14 @@ const program = {
 	      type: "talk",
 	      start: "20 Jul 2021 09:00:00",
 	      end: "20 Jul 2021 09:30:00",
-	      authors: "Axel Kerinec",
+	      authors: "Axel Kerinec, Giulio Manzonetto and Simona Ronchi Della Rocca",
 	      title: "Call-By-Value, Again!"
 	    },
 	    {
 	      type: "talk",
 	      start: "20 Jul 2021 09:30:00",
 	      end: "20 Jul 2021 10:00:00",
-	      authors: "Thibaut Balabonski",
+	      authors: "Thibaut Balabonski, Antoine Lanco and Guillaume Melquiond",
 	      title: "A strong call-by-need calculus"
 	    },
 	    {
