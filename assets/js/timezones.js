@@ -135,7 +135,7 @@ const program = {
 	      type: "talk",
 	      start: "20 Jul 2021 08:00:00",
 	      end: "20 Jul 2021 08:30:00",
-	      authors: "Francesco Gavazzo and Ugo Dal Lago",
+	      authors: "Ugo Dal Lago and Francesco Gavazzo",
 	      title: "Resource Transition Systems and Full Abstraction for Linear Higher-Order Effectful Programs"
 	    },
 	    {
@@ -277,7 +277,7 @@ const program = {
 	      type: "talk",
 	      start: "22 Jul 2021 07:00:00",
 	      end: "22 Jul 2021 07:30:00",
-	      authors: "Alex Rice and Anupam Das",
+	      authors: "Anupam Das and Alex Rice",
 	      title: "New minimal linear inferences in Boolean logic independent of switch and medial"
 	    },
 	    {
