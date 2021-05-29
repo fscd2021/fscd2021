@@ -46,7 +46,7 @@ const program = {
 	      type: "talk",
 	      start : "19 Jul 2021 08:30:00",
 	      end: "19 Jul 2021 09:00:00",
-	      authors: "Hans-Peter Deifel, Stefan Milius and Thorsten Wißmann",
+	      authors: "Hans-Peter Deifel, Stefan Milius, and Thorsten Wißmann",
 	      title: "Coalgebra Encoding for Efficient Minimization"
 	    },
 	    {
@@ -60,7 +60,7 @@ const program = {
 	      type: "talk",
 	      start: "19 Jul 2021 09:30:00",
 	      end: "19 Jul 2021 10:00:00",
-	      authors: "Joseph Paulus, Daniele Nantes-Sobrinho and Jorge A. Pérez",
+	      authors: "Joseph Paulus, Daniele Nantes-Sobrinho, and Jorge A. Pérez",
 	      title: "Non-Deterministic Functions as Non-Deterministic Processes"
 	    },
 	    {
@@ -114,7 +114,7 @@ const program = {
 	      type: "talk",
 	      start: "20 Jul 2021 06:30:00",
 	      end: "20 Jul 2021 07:00:00",
-	      authors: "Youyou Cong, Chiaki Ishio, Kaho Honda and Kenichi Asai",
+	      authors: "Youyou Cong, Chiaki Ishio, Kaho Honda, and Kenichi Asai",
 	      title: "A Functional Abstraction of Typed Invocation Contexts"
 	    },
 	    {
@@ -152,14 +152,14 @@ const program = {
 	      type: "talk",
 	      start: "20 Jul 2021 09:00:00",
 	      end: "20 Jul 2021 09:30:00",
-	      authors: "Axel Kerinec, Giulio Manzonetto and Simona Ronchi Della Rocca",
+	      authors: "Axel Kerinec, Giulio Manzonetto, and Simona Ronchi Della Rocca",
 	      title: "Call-By-Value, Again!"
 	    },
 	    {
 	      type: "talk",
 	      start: "20 Jul 2021 09:30:00",
 	      end: "20 Jul 2021 10:00:00",
-	      authors: "Thibaut Balabonski, Antoine Lanco and Guillaume Melquiond",
+	      authors: "Thibaut Balabonski, Antoine Lanco, and Guillaume Melquiond",
 	      title: "A strong call-by-need calculus"
 	    },
 	    {
@@ -230,7 +230,7 @@ const program = {
 	      type: "talk",
 	      start: "21 Jul 2021 08:30:00",
 	      end: "21 Jul 2021 09:00:00",
-	      authors: "Cristina Matache, Sean Moss and Sam Staton",
+	      authors: "Cristina Matache, Sean Moss, and Sam Staton",
 	      title: "Recursion and Sequentiality in Categories of Sheaves"
 	    },
 	    {
@@ -244,7 +244,7 @@ const program = {
 	      type: "talk",
 	      start: "21 Jul 2021 09:30:00",
 	      end: "21 Jul 2021 10:00:00",
-	      authors: "Pieter Hofstra, Jason Parker and Philip Scott",
+	      authors: "Pieter Hofstra, Jason Parker, and Philip Scott",
 	      title: "Polymorphic Automorphisms and the Picard Group"
 	    },
 	    {
@@ -270,7 +270,7 @@ const program = {
 	      type: "talk",
 	      start: "22 Jul 2021 06:30:00",
 	      end: "22 Jul 2021 07:00:00",
-	      authors: "Kenji Saotome, Koji Nakazawa and Daisuke Kimura",
+	      authors: "Kenji Saotome, Koji Nakazawa, and Daisuke Kimura",
 	      title: "Failure of cut-elimination in the cyclic proof system of bunched logic with inductive propositions"
 	    },
 	    {
@@ -284,7 +284,7 @@ const program = {
 	      type: "talk",
 	      start: "22 Jul 2021 07:30:00",
 	      end: "22 Jul 2021 08:00:00",
-	      authors: "Didier Galmiche, Marta Gawek and Daniel Mery",
+	      authors: "Didier Galmiche, Marta Gawek, and Daniel Mery",
 	      title: "Beth Semantics and Labelled Deduction for Intuitionistic Sentential Calculus with Identity"
 	    },
 	    {
@@ -337,7 +337,7 @@ const program = {
 	      type: "talk",
 	      start: "22 Jul 2021 11:00:00",
 	      end: "22 Jul 2021 11:30:00",
-	      authors: "Frédéric Blanqui, Gilles Dowek, Emilie Grienenberger, Gabriel Hondet and François Thiré",
+	      authors: "Frédéric Blanqui, Gilles Dowek, Emilie Grienenberger, Gabriel Hondet, and François Thiré",
 	      title: "Some axioms for mathematics"
 	    },
 	    {
