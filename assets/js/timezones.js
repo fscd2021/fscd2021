@@ -428,7 +428,7 @@ function drawProgram(timezone){
     row = document.createElement('tr');
     var data = document.createElement('td');
     data.setAttribute('colspan', '4');
-    data.setAttribute('style', 'background: #ffadad; text-align: center; font-weight: bold;');
+    data.setAttribute('style', 'background: #893161; color: #ffffff; text-align: center; font-weight: bold;'); //ffadad
     if (firstDate.getDate() == lastDate.getDate()) {
       data.innerText = 'July ' + getDayOrdinal(firstDate.getDate());
     } else {
@@ -474,13 +474,13 @@ function drawProgram(timezone){
 	  data.innerText = event.title;
 	  row.appendChild(data);
 	} else if (event.type == 'GM') {
-	  row.setAttribute('style', 'font-variant: small-caps; background: #fdffb6;');
+	  row.setAttribute('style', 'font-variant: small-caps; background: #b1a5ba; color: #ffffff'); //fdffb6
 	  data = document.createElement('td');
 	  data.setAttribute('colspan', '2');
 	  data.innerText = 'FSCD General Meeting';
 	  row.appendChild(data);
 	} else if (event.type == 'price') {
-	  row.setAttribute('style', 'background: #fdffb6; line-height: 1;');
+	  row.setAttribute('style', 'background: #b1a5ba; color: #ffffff; line-height: 1;');
 	  data = document.createElement('td');
 	  data.setAttribute('colspan', '2');
 	  data.innerText = 'Winner announcement of the best paper award by junior researchers';
