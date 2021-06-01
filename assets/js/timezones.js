@@ -17,6 +17,7 @@ const program = {
 //	},
 	{
 	  title: "Invited talk",
+	  chair: "Naoki Kobayashi",
 	  events: [
 	    {
 	      type: "talk",
@@ -34,6 +35,7 @@ const program = {
 	},
 	{
 	  title: "Session: Concurrency and formal languages",
+	  chair: "Alejandro Díaz-Caro",
 	  events: [
 	    {
 	      type: "talk",
@@ -72,6 +74,7 @@ const program = {
 	},
 	{
 	  title: "Session: Term rewrite systems",
+	  chair: "Sarah Winkler",
 	  events: [
 	    {
 	      type: "talk",
@@ -109,6 +112,7 @@ const program = {
       sessions: [
 	{
 	  title: "Session: Types and control structures",
+	  chair: "Herman Geuvers",
 	  events: [
 	    {
 	      type: "talk",
@@ -147,6 +151,7 @@ const program = {
 	},
 	{
 	  title: "Session: Lambda-calculus",
+	  chair: "Silvia Ghilezan",
 	  events: [
 	    {
 	      type: "talk",
@@ -185,6 +190,7 @@ const program = {
 	},
 	{
 	  title: "Invited talk",
+	  chair: "Amy Felty",
 	  events: [
 	    {
 	      type: "talk",
@@ -201,6 +207,7 @@ const program = {
       sessions: [
 	{
 	  title: "Invited talk",
+	  chair: "Claudia Faggian",
 	  events: [
 	    {
 	      type: "talk",
@@ -218,6 +225,7 @@ const program = {
 	},
 	{
 	  title: "Session: Categorical semantics, algebras and coalgebras",
+	  chair: "Ichiro Hasuo",
 	  events: [
 	    {
 	      type: "talk",
@@ -265,6 +273,7 @@ const program = {
       sessions: [
 	{
 	  title: "Session: Logic",
+	  chair: "Stefano Berardi",
 	  events: [
 	    {
 	      type: "talk",
@@ -303,6 +312,7 @@ const program = {
 	},
 	{
 	  title: "Invited talk",
+	  chair: "Delia Kesner",
 	  events: [
 	    {
 	      type: "talk",
@@ -325,6 +335,7 @@ const program = {
 	},
 {
 	  title: "Session: Type theory and proof assistants",
+	  chair: "Mauricio Ayala-Rincon",
 	  events: [
 	    {
 	      type: "talk",
@@ -438,12 +449,22 @@ function drawProgram(timezone){
     tbody.appendChild(row);
     for (const session of day.sessions) {
       row = document.createElement('tr');
+      row.setAttribute('style', 'border-bottom: 0');
       data = document.createElement('td');
       data.setAttribute('colspan', '4');
-      data.setAttribute('style', 'background: #9df6ff; text-align: center; font-weight: bold; line-height: 14px;');
+      data.setAttribute('style', 'background: #9df6ff; text-align: center; font-weight: bold; line-height: 4px;');
       data.innerText = session.title;
       row.appendChild(data);
       tbody.appendChild(row);
+      //
+	row = document.createElement('tr');
+	row.setAttribute('style', 'background: #9df6ff; text-align: center; line-height: 4px; border-top: 0'); // e6fbff
+	data = document.createElement('td');
+	data.setAttribute('colspan', '4');
+        data.innerText = 'Chair: '.concat(session.chair);
+	row.appendChild(data);
+      tbody.appendChild(row);
+      //
       for (const event of session.events) {
 	row = document.createElement('tr');
 	data = document.createElement('td');
