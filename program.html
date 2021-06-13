@@ -51,359 +51,404 @@
     <!-- Main -->
     <section id="main" >
       <div class="inner">
-	<header>
-	  <h1>FSCD Program</h1>
+	<!--<header>
 	  <p><strong>FSCD 2021: Sixth International Conference on Formal Structures for Computation and Deduction</strong><br>
-	  July 17 - July 24,  2021, Buenos Aires, Argentina<br>
+	  July 17th-24th,  2021, Buenos Aires, Argentina<br>
 	  <a href=" https://fscd2021.dc.uba.ar">https://fscd2021.dc.uba.ar</a></p>
-	</header>
+	</header>-->
 
-	<strong>Pre-conference workshops run on July 17th and 18th. Post-conference workshops run on July 23rd and 24th.<br>
-	  <a href="Workshops.html"><span style="color: blue;">More info on affiliated workshops here</span></a>.</strong>
+	  <h2>Pre and Post conference workshops</h2>
+	<center>
+	  <!-- <a href="images/Program.png"><img src="images/Program.png" alt="[PROGRAM]" width="100%" /></a> -->
+	  <div class="ritz grid-container" dir="ltr">
+	    <!--	    <strong>Pre-conference workshops run on July 17th and 18th. Post-conference workshops run on July 23th and 24th.</strong><br>-->
+	    <table class="waffle" cellspacing="0" cellpadding="0">
+	      <thead>
+		<tr>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 17</th>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 18</th>
+<!--		  <th style="width:100px;text-align:center;" class="column-headers-background">July 19</th>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 20</th>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 21</th>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 22</th>-->
+		  <th style="width:113px;text-align:center;" class="column-headers-background">July 23</th>
+		  <th style="width:100px;text-align:center;" class="column-headers-background">July 24</th>
+		</tr>
+	      </thead>
+	      <tbody>
+		<tr style='height:20px;'>
+		  <td class="s2" dir="ltr" colspan="2">Pre-conf workshops</td>
+		  <!--		  <td class="s3" colspan="4" rowspan="4"><a href="#fscd">FSCD</a></td>-->
+		  <td class="s4" dir="ltr" colspan="2">Post-conf workshops</td>
+		</tr>
+		<tr style='height:20px;'>
+		  <td class="s5" colspan="2"><a href="https://hott-uf.github.io/2021/">HoTT/UF</a></td>
+		  <td class="s6" colspan="2"><a href="https://mat.unb.br/lsfa2021">LSFA</a></td>
+		</tr>
+		<tr style='height:20px;'>
+		  <td class="s7"><a href="https://www.di.unito.it/~deligu/ITRS2021/">ITRS</a></td>
+		  <td class="s8"><a href="https://www.ipl.riec.tohoku.ac.jp/wpte2021/">WPTE</a></td>
+		  <td class="s9"><a href="https://www.lix.polytechnique.fr/iwc2021/">IWC</a></td>
+		  <td class="s10"><a href="https://ifip-wg-rewriting.cs.ru.nl">IFIP WG 1.6</a></td>
+		</tr>
+		<tr style='height:20px;'>
+		  <td class="s11"></td>
+		  <td class="s12"><a href="https://www.uoh.cl/unif-2021/">UNIF</a></td>
+		  <td class="s13" dir="ltr"></td>
+		  <td class="s14"></td>
+		</tr>
+	      </tbody>
+	    </table>
+	    <strong><a href="Workshops.html"><span style="color: blue;">More info on affiliated workshops here</span></a>.</strong>
+	  </div>
+	</center>
+	<span id="fscd"></span>
 	<br><br>
+	  <h1>FSCD Main Program</h1>
+	  <h4>July 19th-22th</h4>
 	<label for="timezones">Choose a timezone:</label>
 	<select name="timezones" id="timezones">
-	        <option disabled>--- COMMON TIMEZONES ---</option>
-		<option value="-7">UTC-07 (Oregon)</option>
-		<option value="-6">UTC-06 (New Mexico)</option>
-		<option value="-4">UTC-04 (New York, Ottawa)</option>
-		<option value="-3" selected="selected">UTC-03 (Brasilia, Buenos Aires, Montevideo)</option>
-		<option value="0">UTC+00 (Reykjavik)</option>
-		<option value="1">UTC+01 (Birmingham, Cambridge, London, Oxford)</option>
-		<option value="2">UTC+02 (Bologna, Copenhagen, Innsbruck, Lyon, Nancy, Nice, Nuremberg, Paris, Torino, Tübingen)</option>
-		<option value="3">UTC+03 (Tallinn)</option>
-		<option value="9">UTC+09 (Nagoya, Tokio)</option>
-		<option disabled>--- OTHER OPTIONS ---</option>
-		<option value="-12">UTC-12</option>
-		<option value="-11">UTC-11</option>
-		<option value="-10">UTC-10</option>
-		<option value="-9">UTC-09</option>
-		<option value="-8">UTC-08</option>
-		<option value="-5">UTC-05</option>
-		<option value="-3.5">UTC-03:30</option>
-		<option value="-2">UTC-02</option>
-		<option value="-1">UTC-01</option>
-		<option value="3.5">UTC+03:30</option>
-		<option value="4">UTC+04</option>
-		<option value="4.5">UTC+04:30</option>
-		<option value="5">UTC+05</option>
-		<option value="5.5">UTC+05:30</option>
-		<option value="5.75">UTC+05:45</option>
-		<option value="6">UTC+06</option>
-		<option value="6.5">UTC+06:30</option>
-		<option value="7">UTC+07</option>
-		<option value="8">UTC+08</option>
-		<option value="8.75">UTC+08:45</option>
-		<option value="10">UTC+10</option>
-		<option value="11">UTC+11</option>
-		<option value="12">UTC+12</option>
-		<option value="13">UTC+13</option>
-		<option value="14">UTC+14</option>
+	  <option disabled>--- COMMON TIMEZONES ---</option>
+	  <option value="-7">UTC-07 (Oregon)</option>
+	  <option value="-6">UTC-06 (New Mexico)</option>
+	  <option value="-4">UTC-04 (New York, Ottawa)</option>
+	  <option value="-3" selected="selected">UTC-03 (Brasilia, Buenos Aires, Montevideo)</option>
+	  <option value="0">UTC+00 (Reykjavik)</option>
+	  <option value="1">UTC+01 (Birmingham, Cambridge, London, Oxford)</option>
+	  <option value="2">UTC+02 (Bologna, Copenhagen, Innsbruck, Lyon, Nancy, Nice, Nuremberg, Paris, Torino, Tübingen)</option>
+	  <option value="3">UTC+03 (Tallinn)</option>
+	  <option value="9">UTC+09 (Nagoya, Tokio)</option>
+	  <option disabled>--- OTHER OPTIONS ---</option>
+	  <option value="-12">UTC-12</option>
+	  <option value="-11">UTC-11</option>
+	  <option value="-10">UTC-10</option>
+	  <option value="-9">UTC-09</option>
+	  <option value="-8">UTC-08</option>
+	  <option value="-5">UTC-05</option>
+	  <option value="-3.5">UTC-03:30</option>
+	  <option value="-2">UTC-02</option>
+	  <option value="-1">UTC-01</option>
+	  <option value="3.5">UTC+03:30</option>
+	  <option value="4">UTC+04</option>
+	  <option value="4.5">UTC+04:30</option>
+	  <option value="5">UTC+05</option>
+	  <option value="5.5">UTC+05:30</option>
+	  <option value="5.75">UTC+05:45</option>
+	  <option value="6">UTC+06</option>
+	  <option value="6.5">UTC+06:30</option>
+	  <option value="7">UTC+07</option>
+	  <option value="8">UTC+08</option>
+	  <option value="8.75">UTC+08:45</option>
+	  <option value="10">UTC+10</option>
+	  <option value="11">UTC+11</option>
+	  <option value="12">UTC+12</option>
+	  <option value="13">UTC+13</option>
+	  <option value="14">UTC+14</option>
 	</select>
 	<br>
-	
+
 	<div id="programTable"></div>
 	<!-- <table cellspacing="0" cellpadding="0">
 	  <thead>
-	    <tr>
-	      <th>Start</th>
-	      <th>End</th>
-	      <th>Authors</th>
-	      <th>Title</th>
-	    </tr>
+	  <tr>
+	  <th>Start</th>
+	  <th>End</th>
+	  <th>Authors</th>
+	  <th>Title</th>
+	  </tr>
 	  </thead>
 	  <tbody>
-	    <tr>
-	      <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 19th</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
-	    </tr>
-	    <tr>
-	      <td>06:30</td>
-	      <td>07:30</td>
-	      <td>Nao Hirokawa</td>
-	      <td>Completion and Reduction Orders</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>07:30</td>
-	      <td>08:00</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Concurrency and formal language</td>
-	    </tr>
-	    <tr>
-	      <td>08:00</td>
-	      <td>08:30</td>
-	      <td>Ken Sakayori and Takeshi Tsukada</td>
-	      <td>Output without Delay: A Pi-calculus Compatible with Categorical Semantics</td>
-	    </tr>
-	    <tr>
-	      <td>08:30</td>
-	      <td>09:00</td>
-	      <td>Hans-Peter Deifel, Stefan Milius and Thorsten Wißmann</td>
-	      <td>Coalgebra Encoding for Efficient Minimization</td>
-	    </tr>
-	    <tr>
-	      <td>09:00</td>
-	      <td>09:30</td>
-	      <td>Jakob Grue Simonsen</td>
-	      <td>The Expressive Power of One Variable Used Once: The Chomsky Hierarchy and First-Order Monadic Constructor Rewriting</td>
-	    </tr>
-	    <tr>
-	      <td>09:30</td>
-	      <td>10:00</td>
-	      <td>Joseph Paulus, Daniele Nantes-Sobrinho and Jorge A. Pérez</td>
-	      <td>Non-Deterministic Functions as Non-Deterministic Processes</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>10:00</td>
-	      <td>10:30</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Term rewrite systems</td>
-	    </tr>
-	    <tr>
-	      <td>10:30</td>
-	      <td>11:00</td>
-	      <td>Vincent van Oostrom</td>
-	      <td>Z; syntax-free developments</td>
-	    </tr>
-	    <tr>
-	      <td>11:00</td>
-	      <td>11:30</td>
-	      <td>Cynthia Kop and Deivid Vale</td>
-	      <td>Tuple Interpretations for Higher-Order Rewriting</td>
-	    </tr>
-	    <tr>
-	      <td>11:30</td>
-	      <td>12:00</td>
-	      <td>Dohan Kim and Christopher Lynch</td>
-	      <td>An RPO-based ordering modulo permutation equations and its applications to rewrite systems</td>
-	    </tr>
-	    <tr>
-	      <td>12:00</td>
-	      <td>12:30</td>
-	      <td>Deepak Kapur</td>
-	      <td>A Modular Associative Commutative (AC) Congruence Closure Algorithm</td>
-	    </tr>
-	    <tr>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 20th</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Types and control structures</td>
-	    </tr>
-	    <tr>
-	      <td>06:30</td>
-	      <td>07:00</td>
-	      <td>Youyou Cong, Chiaki Ishio, Kaho Honda and Kenichi Asai</td>
-	      <td>A Functional Abstraction of Typed Invocation Contexts</td>
-	    </tr>
-	    <tr>
-	      <td>07:00</td>
-	      <td>07:30</td>
-	      <td>Maika Fujii and Kenichi Asai</td>
-	      <td>Derivation of a Virtual Machine for Four Variants of Delimited-Control Operators</td>
-	    </tr>
-	    <tr>
-	      <td>07:30</td>
-	      <td>08:00</td>
-	      <td>Paolo Pistone and Luca Tranchini</td>
-	      <td>What&#39;s Decidable about (Atomic) Polymorphism?</td>
-	    </tr>
-	    <tr>
-	      <td>08:00</td>
-	      <td>08:30</td>
-	      <td>Francesco Gavazzo and Ugo Dal Lago</td>
-	      <td>Resource Transition Systems and Full Abstraction for Linear Higher-Order Effectful Programs</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>08:30</td>
-	      <td>09:00</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Lambda-calculus</td>
-	    </tr>
-	    <tr>
-	      <td>09:00</td>
-	      <td>09:30</td>
-	      <td>Axel Kerinec</td>
-	      <td>Call-By-Value, Again!</td>
-	    </tr>
-	    <tr>
-	      <td>09:30</td>
-	      <td>10:00</td>
-	      <td>Thibaut Balabonski</td>
-	      <td>A strong call-by-need calculus</td>
-	    </tr>
-	    <tr>
-	      <td>10:00</td>
-	      <td>10:30</td>
-	      <td>Lison Blondeau-Patissier and Pierre Clairambault</td>
-	      <td>Positional Injectivity for Innocent Strategies</td>
-	    </tr>
-	    <tr>
-	      <td>10:30</td>
-	      <td>11:00</td>
-	      <td>Richard Statman</td>
-	      <td>Church&#39;s semigroup is sq-universal</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>11:00</td>
-	      <td>11:30</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
-	    </tr>
-	    <tr>
-	      <td>11:30</td>
-	      <td>12:30</td>
-	      <td>Zena M. Abriola</td>
-	      <td>Duality in Action</td>
-	    </tr>
-	    <tr>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 21th</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
-	    </tr>
-	    <tr>
-	      <td>06:30</td>
-	      <td>07:30</td>
-	      <td>Sam Staton</td>
-	      <td>Some Formal Structures in Probability</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>07:30</td>
-	      <td>08:00</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Categorical semantics, algebras and coalgebras</td>
-	    </tr>
-	    <tr>
-	      <td>08:00</td>
-	      <td>08:30</td>
-	      <td>Zeinab Galal</td>
-	      <td>A bicategorical semantics for finite non-determinism</td>
-	    </tr>
-	    <tr>
-	      <td>08:30</td>
-	      <td>09:00</td>
-	      <td>Cristina Matache, Sean Moss and Sam Staton</td>
-	      <td>Recursion and Sequentiality in Categories of Sheaves</td>
-	    </tr>
-	    <tr>
-	      <td>09:00</td>
-	      <td>09:30</td>
-	      <td>Nathanael Arkor and Dylan McDermott</td>
-	      <td>Abstract clones for abstract syntax</td>
-	    </tr>
-	    <tr>
-	      <td>09:30</td>
-	      <td>10:00</td>
-	      <td>Pieter Hofstra, Jason Parker and Philip Scott</td>
-	      <td>Polymorphic Automorphisms and the Picard Group</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>10:00</td>
-	      <td>10:30</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td>10:30</td>
-	      <td>12:30</td>
-	      <td>FSCD General Meeting</td>
-	      <td class="s6">
-	      </td>
-	    </tr>
-	    <tr>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 22th</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Logic</td>
-	    </tr>
-	    <tr>
-	      <td>06:30</td>
-	      <td>07:00</td>
-	      <td>Kenji Saotome, Koji Nakazawa and Daisuke Kimura</td>
-	      <td>Failure of cut-elimination in the cyclic proof system of bunched logic with inductive propositions</td>
-	    </tr>
-	    <tr>
-	      <td>07:00</td>
-	      <td>07:30</td>
-	      <td>Alex Rice and Anupam Das</td>
-	      <td>New minimal linear inferences in Boolean logic independent of switch and medial</td>
-	    </tr>
-	    <tr>
-	      <td>07:30</td>
-	      <td>08:00</td>
-	      <td>Didier Galmiche, Marta Gawek and Daniel Mery</td>
-	      <td>Beth Semantics and Labelled Deduction for Intuitionistic Sentential Calculus with Identity</td>
-	    </tr>
-	    <tr>
-	      <td>08:00</td>
-	      <td>08:30</td>
-	      <td>Anupam Das</td>
-	      <td>On the logical strength of confluence and normalisation for cyclic proofs</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>08:30</td>
-	      <td>09:00</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
-	    </tr>
-	    <tr>
-	      <td>09:00</td>
-	      <td>10:00</td>
-	      <td>Elaine Pimentel</td>
-	      <td>Process-as-formula interpretation: A substructural multimodal view</td>
-	    </tr>
-	    <tr style="text-align: center; background: #dddddd;">
-	      <td>10:00</td>
-	      <td>10:30</td>
-	      <td colspan="2">Break</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Type theory and proof assistants</td>
-	    </tr>
-	    <tr>
-	      <td>10:30</td>
-	      <td>11:00</td>
-	      <td>Tom de Jong and Martin Escardo</td>
-	      <td>Predicative Aspects of Order Theory in Univalent Foundations</td>
-	    </tr>
-	    <tr>
-	      <td>11:00</td>
-	      <td>11:30</td>
-	      <td>Frédéric Blanqui, Gilles Dowek, Emilie Grienenberger, Gabriel Hondet and François Thiré</td>
-	      <td>Some axioms for mathematics</td>
-	    </tr>
-	    <tr>
-	      <td>11:30</td>
-	      <td>12:00</td>
-	      <td>Niccolò Veltri</td>
-	      <td>Type Theoretic Constructions of the Final Coalgebra of the Finite Powerset Functor</td>
-	    </tr>
-	    <tr>
-	      <td>12:00</td>
-	      <td>12:30</td>
-	      <td>Dominique Larchey-Wendling</td>
-	      <td>Synthetic Undecidability of MSELL via FRACTRAN mechanised in Coq</td>
-	    </tr>
+	  <tr>
+	  <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 19th</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
+	  </tr>
+	  <tr>
+	  <td>06:30</td>
+	  <td>07:30</td>
+	  <td>Nao Hirokawa</td>
+	  <td>Completion and Reduction Orders</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>07:30</td>
+	  <td>08:00</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Concurrency and formal language</td>
+	  </tr>
+	  <tr>
+	  <td>08:00</td>
+	  <td>08:30</td>
+	  <td>Ken Sakayori and Takeshi Tsukada</td>
+	  <td>Output without Delay: A Pi-calculus Compatible with Categorical Semantics</td>
+	  </tr>
+	  <tr>
+	  <td>08:30</td>
+	  <td>09:00</td>
+	  <td>Hans-Peter Deifel, Stefan Milius and Thorsten Wißmann</td>
+	  <td>Coalgebra Encoding for Efficient Minimization</td>
+	  </tr>
+	  <tr>
+	  <td>09:00</td>
+	  <td>09:30</td>
+	  <td>Jakob Grue Simonsen</td>
+	  <td>The Expressive Power of One Variable Used Once: The Chomsky Hierarchy and First-Order Monadic Constructor Rewriting</td>
+	  </tr>
+	  <tr>
+	  <td>09:30</td>
+	  <td>10:00</td>
+	  <td>Joseph Paulus, Daniele Nantes-Sobrinho and Jorge A. Pérez</td>
+	  <td>Non-Deterministic Functions as Non-Deterministic Processes</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>10:00</td>
+	  <td>10:30</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Term rewrite systems</td>
+	  </tr>
+	  <tr>
+	  <td>10:30</td>
+	  <td>11:00</td>
+	  <td>Vincent van Oostrom</td>
+	  <td>Z; syntax-free developments</td>
+	  </tr>
+	  <tr>
+	  <td>11:00</td>
+	  <td>11:30</td>
+	  <td>Cynthia Kop and Deivid Vale</td>
+	  <td>Tuple Interpretations for Higher-Order Rewriting</td>
+	  </tr>
+	  <tr>
+	  <td>11:30</td>
+	  <td>12:00</td>
+	  <td>Dohan Kim and Christopher Lynch</td>
+	  <td>An RPO-based ordering modulo permutation equations and its applications to rewrite systems</td>
+	  </tr>
+	  <tr>
+	  <td>12:00</td>
+	  <td>12:30</td>
+	  <td>Deepak Kapur</td>
+	  <td>A Modular Associative Commutative (AC) Congruence Closure Algorithm</td>
+	  </tr>
+	  <tr>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 20th</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Types and control structures</td>
+	  </tr>
+	  <tr>
+	  <td>06:30</td>
+	  <td>07:00</td>
+	  <td>Youyou Cong, Chiaki Ishio, Kaho Honda and Kenichi Asai</td>
+	  <td>A Functional Abstraction of Typed Invocation Contexts</td>
+	  </tr>
+	  <tr>
+	  <td>07:00</td>
+	  <td>07:30</td>
+	  <td>Maika Fujii and Kenichi Asai</td>
+	  <td>Derivation of a Virtual Machine for Four Variants of Delimited-Control Operators</td>
+	  </tr>
+	  <tr>
+	  <td>07:30</td>
+	  <td>08:00</td>
+	  <td>Paolo Pistone and Luca Tranchini</td>
+	  <td>What&#39;s Decidable about (Atomic) Polymorphism?</td>
+	  </tr>
+	  <tr>
+	  <td>08:00</td>
+	  <td>08:30</td>
+	  <td>Francesco Gavazzo and Ugo Dal Lago</td>
+	  <td>Resource Transition Systems and Full Abstraction for Linear Higher-Order Effectful Programs</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>08:30</td>
+	  <td>09:00</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Lambda-calculus</td>
+	  </tr>
+	  <tr>
+	  <td>09:00</td>
+	  <td>09:30</td>
+	  <td>Axel Kerinec</td>
+	  <td>Call-By-Value, Again!</td>
+	  </tr>
+	  <tr>
+	  <td>09:30</td>
+	  <td>10:00</td>
+	  <td>Thibaut Balabonski</td>
+	  <td>A strong call-by-need calculus</td>
+	  </tr>
+	  <tr>
+	  <td>10:00</td>
+	  <td>10:30</td>
+	  <td>Lison Blondeau-Patissier and Pierre Clairambault</td>
+	  <td>Positional Injectivity for Innocent Strategies</td>
+	  </tr>
+	  <tr>
+	  <td>10:30</td>
+	  <td>11:00</td>
+	  <td>Richard Statman</td>
+	  <td>Church&#39;s semigroup is sq-universal</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>11:00</td>
+	  <td>11:30</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
+	  </tr>
+	  <tr>
+	  <td>11:30</td>
+	  <td>12:30</td>
+	  <td>Zena M. Abriola</td>
+	  <td>Duality in Action</td>
+	  </tr>
+	  <tr>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 21th</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
+	  </tr>
+	  <tr>
+	  <td>06:30</td>
+	  <td>07:30</td>
+	  <td>Sam Staton</td>
+	  <td>Some Formal Structures in Probability</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>07:30</td>
+	  <td>08:00</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Categorical semantics, algebras and coalgebras</td>
+	  </tr>
+	  <tr>
+	  <td>08:00</td>
+	  <td>08:30</td>
+	  <td>Zeinab Galal</td>
+	  <td>A bicategorical semantics for finite non-determinism</td>
+	  </tr>
+	  <tr>
+	  <td>08:30</td>
+	  <td>09:00</td>
+	  <td>Cristina Matache, Sean Moss and Sam Staton</td>
+	  <td>Recursion and Sequentiality in Categories of Sheaves</td>
+	  </tr>
+	  <tr>
+	  <td>09:00</td>
+	  <td>09:30</td>
+	  <td>Nathanael Arkor and Dylan McDermott</td>
+	  <td>Abstract clones for abstract syntax</td>
+	  </tr>
+	  <tr>
+	  <td>09:30</td>
+	  <td>10:00</td>
+	  <td>Pieter Hofstra, Jason Parker and Philip Scott</td>
+	  <td>Polymorphic Automorphisms and the Picard Group</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>10:00</td>
+	  <td>10:30</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td>10:30</td>
+	  <td>12:30</td>
+	  <td>FSCD General Meeting</td>
+	  <td class="s6">
+	  </td>
+	  </tr>
+	  <tr>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #ffadad; text-align: center; font-weight: bold;">July 22th</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Logic</td>
+	  </tr>
+	  <tr>
+	  <td>06:30</td>
+	  <td>07:00</td>
+	  <td>Kenji Saotome, Koji Nakazawa and Daisuke Kimura</td>
+	  <td>Failure of cut-elimination in the cyclic proof system of bunched logic with inductive propositions</td>
+	  </tr>
+	  <tr>
+	  <td>07:00</td>
+	  <td>07:30</td>
+	  <td>Alex Rice and Anupam Das</td>
+	  <td>New minimal linear inferences in Boolean logic independent of switch and medial</td>
+	  </tr>
+	  <tr>
+	  <td>07:30</td>
+	  <td>08:00</td>
+	  <td>Didier Galmiche, Marta Gawek and Daniel Mery</td>
+	  <td>Beth Semantics and Labelled Deduction for Intuitionistic Sentential Calculus with Identity</td>
+	  </tr>
+	  <tr>
+	  <td>08:00</td>
+	  <td>08:30</td>
+	  <td>Anupam Das</td>
+	  <td>On the logical strength of confluence and normalisation for cyclic proofs</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>08:30</td>
+	  <td>09:00</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Invited talk</td>
+	  </tr>
+	  <tr>
+	  <td>09:00</td>
+	  <td>10:00</td>
+	  <td>Elaine Pimentel</td>
+	  <td>Process-as-formula interpretation: A substructural multimodal view</td>
+	  </tr>
+	  <tr style="text-align: center; background: #dddddd;">
+	  <td>10:00</td>
+	  <td>10:30</td>
+	  <td colspan="2">Break</td>
+	  </tr>
+	  <tr>
+	  <td colspan="4" style="background: #9df6ff; text-align: center; font-weight: bold;">Session: Type theory and proof assistants</td>
+	  </tr>
+	  <tr>
+	  <td>10:30</td>
+	  <td>11:00</td>
+	  <td>Tom de Jong and Martin Escardo</td>
+	  <td>Predicative Aspects of Order Theory in Univalent Foundations</td>
+	  </tr>
+	  <tr>
+	  <td>11:00</td>
+	  <td>11:30</td>
+	  <td>Frédéric Blanqui, Gilles Dowek, Emilie Grienenberger, Gabriel Hondet and François Thiré</td>
+	  <td>Some axioms for mathematics</td>
+	  </tr>
+	  <tr>
+	  <td>11:30</td>
+	  <td>12:00</td>
+	  <td>Niccolò Veltri</td>
+	  <td>Type Theoretic Constructions of the Final Coalgebra of the Finite Powerset Functor</td>
+	  </tr>
+	  <tr>
+	  <td>12:00</td>
+	  <td>12:30</td>
+	  <td>Dominique Larchey-Wendling</td>
+	  <td>Synthetic Undecidability of MSELL via FRACTRAN mechanised in Coq</td>
+	  </tr>
 	  </tbody>
-	</table> -->
+	  </table> -->
 
     </section>
 
@@ -423,7 +468,7 @@
     <script src="assets/js/skel.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-	<script src="assets/js/timezones.js"></script>
+    <script src="assets/js/timezones.js"></script>
 
   </body>
 </html>
