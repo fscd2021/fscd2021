@@ -322,15 +322,10 @@ const program = {
 	      title: "Process-as-formula interpretation: A substructural multimodal view"
 	    },
 	    {
-	      type: "shortbreak",
+	      type: "break",
 	      start: "22 Jul 2021 10:00:00",
-	      end: "22 Jul 2021 10:20:00"
-	    },
-	    {
-	      type: "price",
-	      start: "22 Jul 2021 10:20:00",
 	      end: "22 Jul 2021 10:30:00"
-	    }
+	    },
 	  ]
 	},
 {
@@ -338,30 +333,30 @@ const program = {
 	  chair: "Mauricio Ayala-Rincon",
 	  events: [
 	    {
-	      type: "talk",
+	      type: "price",
 	      start: "22 Jul 2021 10:30:00",
-	      end: "22 Jul 2021 11:00:00",
+	      end: "22 Jul 2021 11:05:00",
 	      authors: "Tom de Jong and Martin Escardo",
 	      title: "Predicative Aspects of Order Theory in Univalent Foundations"
 	    },
 	    {
 	      type: "talk",
-	      start: "22 Jul 2021 11:00:00",
-	      end: "22 Jul 2021 11:30:00",
+	      start: "22 Jul 2021 11:05:00",
+	      end: "22 Jul 2021 11:35:00",
 	      authors: "Frédéric Blanqui, Gilles Dowek, Emilie Grienenberger, Gabriel Hondet, and François Thiré",
 	      title: "Some axioms for mathematics"
 	    },
 	    {
 	      type: "talk",
-	      start: "22 Jul 2021 11:30:00",
-	      end: "22 Jul 2021 12:00:00",
+	      start: "22 Jul 2021 11:35:00",
+	      end: "22 Jul 2021 12:05:00",
 	      authors: "Niccolò Veltri",
 	      title: "Type Theoretic Constructions of the Final Coalgebra of the Finite Powerset Functor"
 	    },
 	    {
 	      type: "talk",
-	      start: "22 Jul 2021 12:00:00",
-	      end: "22 Jul 2021 12:30:00",
+	      start: "22 Jul 2021 12:05:00",
+	      end: "22 Jul 2021 12:35:00",
 	      authors: "Dominique Larchey-Wendling",
 	      title: "Synthetic Undecidability of MSELL via FRACTRAN mechanised in Coq"
 	    }
@@ -495,16 +490,23 @@ function drawProgram(timezone){
 	  data.innerText = event.title;
 	  row.appendChild(data);
 	} else if (event.type == 'GM') {
-	  row.setAttribute('style', 'font-variant: small-caps; background: #b1a5ba; color: #ffffff'); //fdffb6
+	  row.setAttribute('style', 'font-variant: small-caps; background: #b1a5ba; color: #ffffff;'); //fdffb6
 	  data = document.createElement('td');
 	  data.setAttribute('colspan', '2');
 	  data.innerText = 'FSCD General Meeting';
 	  row.appendChild(data);
 	} else if (event.type == 'price') {
-	  row.setAttribute('style', 'background: #b1a5ba; color: #ffffff; line-height: 1;');
+//	  row.setAttribute('style', 'background: #b1a5ba; color: #ffffff; line-height: 1;');
+//	  data = document.createElement('td');
+//	  data.setAttribute('colspan', '2');
+//	  data.innerText = 'Winner announcement of the best paper award by junior researchers';
+//	  row.appendChild(data);
+	  row.setAttribute('style', 'background: #f4e2ff; color: #fffffaf;');
 	  data = document.createElement('td');
-	  data.setAttribute('colspan', '2');
-	  data.innerText = 'Winner announcement of the best paper award by junior researchers';
+	  data.innerText = event.authors;
+	  row.appendChild(data);
+	  data = document.createElement('td');
+	  data.innerText = 'Best paper by junior researcher: \n'.concat(event.title);
 	  row.appendChild(data);
 	}
 //	else if (event.type == 'opening') {
